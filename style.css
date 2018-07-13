@@ -1,0 +1,50 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+	max-width: 65px;
+	border-width: 5px;
+	border-color: #ec971f;;
+}
+
+header.startup{
+	background-position: center;
+	background-size: cover;
+	background-image: url(img/ccx.jpg);
+	height: 100%;
+}
+
+h1{
+ 	font-size: 2em;
+ 	margin-top: 100px;
+ 	color: rgba(194,89,6,0.8);;
+}
+
+header.startup hr{
+	margin-top: 300px;
+	margin-bottom: 20px;
+}
+
+.btn-primary{
+	border-radius: 300px;
+	text-transform: uppercase;
+	font-weight: 700px;
+	padding: 1rem 2rem;
+	background-color: #ec971f;
+	border-color: #ec971f;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.btn-primary:hover{
+	background-color: rgba(194,89,6,0.8);
+	border-color: #ec971f;
+	padding: 20px 25px; 
+
+}
